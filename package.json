@@ -1,0 +1,30 @@
+{
+  "name": "github-battle",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava 'app/**/*.test.js' --verbose --require ./other/setup-ava-tests.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kgiberson/react-starter.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kgiberson/react-starter/issues"
+  },
+  "homepage": "https://github.com/Kgiberson/react-starter#readme",
+  "dependencies": {
+    "jquery": "^3.1.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.14.0",
+    "babel-loader": "^6.2.5",
+    "babel-preset-react": "^6.11.1",
+    "html-webpack-plugin": "^2.22.0",
+    "jquery": "^3.1.0",
+    "webpack": "^1.13.2"
+  }
+}
