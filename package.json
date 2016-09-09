@@ -1,0 +1,22 @@
+{
+  "name": "react-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava 'app/**/*.test.js' --verbose --require ./other/setup-ava-tests.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kgiberson/react-starter.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kgiberson/react-starter/issues"
+  },
+  "homepage": "https://github.com/Kgiberson/react-starter#readme",
+  "dependencies": {
+    "jquery": "^3.1.0"
+  }
+}
