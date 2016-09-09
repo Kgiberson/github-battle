@@ -17,7 +17,7 @@ var ReactDOM = require('react-dom');
 
 var ProfilePic = React.createClass({
   render: function () {
-    return <img src={this.props.imageUrl} style={{height: 100, width: 100}}></img>
+    return  <img src={this.props.imageUrl} style={{height: 100, width: 100}}> </img>
   }
 });
 
