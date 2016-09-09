@@ -1,10 +1,11 @@
 {
-  "name": "github-battle",
+  "name": "gh-battle",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "ava 'app/**/*.test.js' --verbose --require ./other/setup-ava-tests.js"
+    "production": "webpack -p",
+    "start": "webpack-dev-server"
   },
   "repository": {
     "type": "git",
@@ -17,7 +18,9 @@
   },
   "homepage": "https://github.com/Kgiberson/react-starter#readme",
   "dependencies": {
-    "jquery": "^3.1.0"
+    "jquery": "^3.1.0",
+    "react": "^0.14.6",
+    "react-dom": "^0.14.6"
   },
   "devDependencies": {
     "babel-core": "^6.14.0",
@@ -25,6 +28,7 @@
     "babel-preset-react": "^6.11.1",
     "html-webpack-plugin": "^2.22.0",
     "jquery": "^3.1.0",
-    "webpack": "^1.13.2"
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.14.1"
   }
 }
