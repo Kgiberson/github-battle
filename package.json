@@ -19,6 +19,7 @@
   "homepage": "https://github.com/Kgiberson/react-starter#readme",
   "dependencies": {
     "jquery": "^3.1.0",
+    "raven-js": "^3.7.0",
     "react": "^0.14.6",
     "react-dom": "^0.14.6",
     "react-router": "^2.7.0"
