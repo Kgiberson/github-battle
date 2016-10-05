@@ -1,6 +1,6 @@
 # Github Battle
 
-It's a face-off between Github users. Put in any two usernames and get a breakdown of followers, people following and total public repos.
+It's a face-off between Github users. Put in any two usernames and find out how they stack up against each other.
 
 ![Home Screen](imgs/github-battle-home.png)
 ![Player One](imgs/player-one.png)
